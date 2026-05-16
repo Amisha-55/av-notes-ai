@@ -238,17 +238,6 @@ If you want to optimize the NLP pipeline, improve memory efficiency, add fronten
 
 ---
 
-# Resume-Worthy Engineering Highlights
-
-- End-to-end AI orchestration pipeline
-- Multi-model integration
-- Efficient GPU memory management
-- Quantized LLM deployment
-- Automated educational content generation
-- Real-world LLM application architecture
-
----
-
 # Repository Structure
 
 ```text

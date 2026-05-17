@@ -52,7 +52,7 @@ pip install python-docx
 
 ```bash
 git clone https://github.com/yourusername/ai-study-buddy.git
-cd ai-study-buddy
+cd av-notes-ai
 ```
 
 ---
@@ -258,13 +258,8 @@ av-notes-ai/
 ```
 
 ---
-audio_files = ["/your/path/to/lecture_file.mp4"]
-   Here is a clean, structured, and professional `README.md` file designed for your GitHub repository. It clearly explains your architecture, project scope, and setup instructions, making it ready for production or academic presentation.
 
-***
- 
 
----
 
 # 🚀 System Architecture & Workflow
 

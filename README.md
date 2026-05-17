@@ -31,7 +31,7 @@ This codebase is optimized for a **Dual-GPU environment** (e.g., Kaggle Notebook
 1. Clone the repository:
    ```bash
    git clone [https://github.com/yourusername/ai-study-buddy.git](https://github.com/yourusername/ai-study-buddy.git)
-   cd ai-study-buddy
+   cd av-notes-ai
    ```
 
 ---

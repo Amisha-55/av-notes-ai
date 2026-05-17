@@ -229,29 +229,6 @@ If you want to optimize the NLP pipeline, improve memory efficiency, add fronten
 
 ---
 
-# Repository Structure
-
-```text
-av-notes-ai/
-│
-├── notebooks/
-│   └── lecture_pipeline.ipynb
-│
-├── outputs/
-│   └── Submission.docx
-│
-├── assets/
-│   └── sample_mindmaps/
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
----
-
-
-
 # 🚀 System Architecture & Workflow
 
 The pipeline is optimized for **Dual-GPU execution** (e.g., Kaggle's T4 x2 environment) to run heavy model pipelines concurrently without memory or performance bottlenecks:

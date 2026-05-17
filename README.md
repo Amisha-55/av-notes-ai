@@ -1,4 +1,4 @@
-# 🧠 AI Study Buddy: Video to Notes Pipeline
+# 🧠 Av Notes AI: Video to Notes Pipeline
 
 This pipeline automatically converts educational video and audio lectures into comprehensive study materials. By leveraging state-of-the-art AI models, it transcribes media, extracts key concepts, and generates structured Notes, Flashcards, and interactive Mindmaps—finally exporting everything into a neat `.docx` file.
 

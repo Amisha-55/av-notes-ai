@@ -241,7 +241,7 @@ If you want to optimize the NLP pipeline, improve memory efficiency, add fronten
 # Repository Structure
 
 ```text
-ai-study-buddy/
+av-notes-ai/
 │
 ├── notebooks/
 │   └── lecture_pipeline.ipynb

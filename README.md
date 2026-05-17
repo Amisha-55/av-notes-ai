@@ -258,7 +258,38 @@ ai-study-buddy/
 ```
 
 ---
+audio_files = ["/your/path/to/lecture_file.mp4"]
+   Here is a clean, structured, and professional `README.md` file designed for your GitHub repository. It clearly explains your architecture, project scope, and setup instructions, making it ready for production or academic presentation.
 
+***
+```markdown
+# 🧠 AI Study Buddy: Automated Video-to-Notes Pipeline
+
+An automated AI pipeline that processes educational lecture videos or audio files to generate comprehensive, structured study materials. By leveraging a dual-GPU pipeline, the system transcribes multi-lingual media, extracts core concepts, and compiles organized **Study Notes**, **Active Recall Flashcards**, and interactive **Mermaid.js Mindmaps** into a ready-to-download Microsoft Word (`.docx`) report.
+
+---
+
+## 🚀 System Architecture & Workflow
+
+The pipeline is optimized for **Dual-GPU execution** (e.g., Kaggle's T4 x2 environment) to run heavy model pipelines concurrently without memory or performance bottlenecks:
+
+```mermaid
+graph TD
+    A[Input Lecture Video/Audio] --> B[GPU 0: Faster-Whisper distil-large-v3]
+    B --> C[Raw Text Transcript]
+    C --> D[Semantic Chunking Engine]
+    D --> E[GPU 1: Quantized Gemma LLM]
+    
+    E --> F1[📝 Notes Generation]
+    E --> F2[📇 Flashcards JSON]
+    E --> F3[🗺️ Mermaid Mindmap]
+    
+    F1 --> G[Document Aggregator python-docx]
+    F2 --> G
+    F3 --> G
+    
+    G --> H[📦 Submission.docx Output]
+-----
 # GitHub Topics
 
 ```text

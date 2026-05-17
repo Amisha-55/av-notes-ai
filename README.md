@@ -191,15 +191,6 @@ This improves:
 
 ---
 
-# Current Limitations
-
-- Long lectures may still require aggressive chunking
-- Mindmap generation depends on LLM consistency
-- Sequential chunk processing increases runtime
-- Flashcard JSON parsing may occasionally fail
-
----
-
 # Future Improvements
 
 ## Planned Features

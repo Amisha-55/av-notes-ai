@@ -269,7 +269,7 @@ An automated AI pipeline that processes educational lecture videos or audio file
 
 ---
 
-## 🚀 System Architecture & Workflow
+# 🚀 System Architecture & Workflow
 
 The pipeline is optimized for **Dual-GPU execution** (e.g., Kaggle's T4 x2 environment) to run heavy model pipelines concurrently without memory or performance bottlenecks:
 
@@ -289,7 +289,7 @@ graph TD
     F3 --> G
     
     G --> H[📦 Submission.docx Output]
------
+---
 # GitHub Topics
 
 ```text
